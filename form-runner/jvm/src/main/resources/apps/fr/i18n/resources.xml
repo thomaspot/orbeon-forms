@@ -3249,13 +3249,13 @@
             </formats>
         </common>
         <buttons>
-            <create todo="true">&lt;i class="fa fa-fw fa-plus"/&gt; [Create]</create>
-            <view todo="true">&lt;i class="fa fa-fw fa-eye"/&gt; [View]</view>
-            <approve todo="true">&lt;i class="icon-ok-circle"/&gt; [Approve]</approve>
-            <reject todo="true">&lt;i class="icon-ban-circle"/&gt; [Reject]</reject>
+            <create todo="true">&lt;i class="fa fa-fw fa-plus"/&gt; [Aanmaken]</create>
+            <view todo="true">&lt;i class="fa fa-fw fa-eye"/&gt; [Weergeven]</view>
+            <approve todo="true">&lt;i class="icon-ok-circle"/&gt; [Akkoord]</approve>
+            <reject todo="true">&lt;i class="icon-ban-circle"/&gt; [Afwijzen]</reject>
 
             <home>&lt;i class="fa fa-fw fa-home"/&gt; Home</home>
-            <review>&lt;i class="fa fa-fw fa-eye"/&gt; Review</review>
+            <review>&lt;i class="fa fa-fw fa-eye"/&gt; Overzien</review>
             <pdf>&lt;i class="fa fa-fw fa-print"/&gt; PDF</pdf>
             <tiff>&lt;i class="fa fa-fw fa-image"/&gt; TIFF</tiff>
             <delete>&lt;i class="fa fa-fw fa-remove"/&gt; Verwijderen</delete>
@@ -3293,7 +3293,7 @@
 
             <!-- Submit dialog -->
             <submit-dialog-clear>Wissen en sluiten</submit-dialog-clear>
-            <submit-dialog-keep>Waarden behouden en sluiten</submit-dialog-keep>
+            <submit-dialog-keep>Opslaan en sluiten</submit-dialog-keep>
             <submit-dialog-go>OK</submit-dialog-go>
             <submit-dialog-close-window>Venster sluiten</submit-dialog-close-window>
 
@@ -3303,7 +3303,7 @@
 
             <test>&lt;i class="fa fa-fw fa-cog"/&gt; Testen</test>
             <publish>&lt;i class="fa fa-fw fa-globe"/&gt; Publiceren</publish>
-            <save-publish>&lt;i class="fa fa-fw fa-globe"/&gt; Publiceren</save-publish>
+            <save-publish>&lt;i class="fa fa-fw fa-globe"/&gt; Opslaan en publiceren</save-publish>
 
             <yes>&lt;i class="fa fa-fw fa-check"/&gt; Ja</yes>
             <no>&lt;i class="fa fa-fw fa-times"/&gt; Nee</no>
@@ -3486,7 +3486,7 @@
             <labels>
                 <language-choice>Taal</language-choice>
                 <errors>Samenvatting van fouten</errors>
-                <check-errors-in-form>Dit form bevat fouten</check-errors-in-form>
+                <check-errors-in-form>Dit formulier bevat fouten</check-errors-in-form>
                 <error-details>Toon foutdetails</error-details>
                 <confirm>Bevestigen</confirm>
                 <alert>Ontbrekende of incorrecte waarde</alert>
@@ -3531,7 +3531,7 @@
             </dialog-body>
         </save-locally>
         <home>
-            <title>Form Runner Home</title>
+            <title>Form-Runner Start</title>
             <buttons>
                 <unpublish>&lt;i class="icon-ban-circle"/&gt; Publicatie verwijderen</unpublish>
                 <publish>&lt;i class="fa fa-fw fa-globe"/&gt; Publiceren</publish>
@@ -3543,23 +3543,23 @@
                 <stop-reindex>Stoppen herindexeren</stop-reindex>
                 <all>Alles</all>
                 <none>Niets</none>
-                <unpublished-local>Niet-gepubliceerde lokale forms</unpublished-local>
-                <published-local>Gepubliceerde lokale forms</published-local>
-                <unpublished-remote>Niet-gepubliceerde externe forms</unpublished-remote>
-                <published-remote>Gepubliceerde externe forms</published-remote>
-                <newer-local>Forms die lokaal nieuwer zijn</newer-local>
-                <newer-remote>Forms die extern nieuwer zijn</newer-remote>
-                <publish-local>Alle lokale forms publiceren</publish-local>
-                <unpublish-local>Publicatie verwijderen van alle lokale forms</unpublish-local>
+                <unpublished-local>Niet-gepubliceerde lokale formulieren</unpublished-local>
+                <published-local>Gepubliceerde lokale formulieren</published-local>
+                <unpublished-remote>Niet-gepubliceerde externe formulieren</unpublished-remote>
+                <published-remote>Gepubliceerde externe formulieren</published-remote>
+                <newer-local>Formulieren die lokaal nieuwer zijn</newer-local>
+                <newer-remote>Formulieren die extern nieuwer zijn</newer-remote>
+                <publish-local>Alle lokale formulieren publiceren</publish-local>
+                <unpublish-local>Publicatie verwijderen van alle lokale formulieren</unpublish-local>
                 <publish-remote>Externe forms publiceren</publish-remote>
-                <unpublish-remote>Publicatie verwijderen van alle externe forms</unpublish-remote>
+                <unpublish-remote>Publicatie verwijderen van alle externe formulieren</unpublish-remote>
                 <push-to-remote>Naar extern sturen</push-to-remote>
                 <pull-from-remote>Van extern ophalen</pull-from-remote>
                 <navigate-summary>Naar samenvatting</navigate-summary>
                 <navigate-new>Naar nieuw</navigate-new>
                 <upgrade-local>Upgrade lokale formdefinities</upgrade-local>
                 <upgrade-remote>Upgrade externe formdefinities</upgrade-remote>
-                <reencrypt todo="true">[Re-encrypt form definitions]</reencrypt>
+                <reencrypt todo="true">[Re-encryptie formulier definities]</reencrypt>
             </buttons>
             <titles>
                 <publish-confirmation>Bevestigen publiceren/publicatie verwijderen</publish-confirmation>
@@ -3572,16 +3572,16 @@
                 <new>Nieuw</new>
                 <local>Lokaal</local>
                 <remote>Extern</remote>
-                <form-identification>Form-identificatie</form-identification>
+                <form-identification>Formulier-identificatie</form-identification>
                 <last-modified>Bewerkt</last-modified>
                 <reindexing-confirmation>Bevestigen herindexeren</reindexing-confirmation>
-                <reencrypt-confirmation todo="true">[Confirm Re-encryption]</reencrypt-confirmation>
+                <reencrypt-confirmation todo="true">[Bevestig Re-encryptie]</reencrypt-confirmation>
             </titles>
             <messages>
                 <no-forms>U hebt geen toegang tot de actieve forms.</no-forms>
                 <publish-confirmation>Weet u zeker dat u {1,choice,1#één form|1&lt;{1,number,integer} forms} wilt {0,choice,0#publiceren|1#verwijderen|2#upgraden}?</publish-confirmation>
                 <reindexing-confirmation>Tijdens het herindexeren werken bepaalde functies, zoals de Form Runner samenvattingpagina's, mogelijk niet zoals verwacht. We raden u om die reden aan om te herindexeren als uw systeem offline is. Weet u zeker dat het herindexeren wilt starten?</reindexing-confirmation>
-                <reencrypt-confirmation todo="true">[We recommend you perform re-encryption while the system is offline. Are you sure you want to proceed with re-encryption?]</reencrypt-confirmation>
+                <reencrypt-confirmation todo="true">[We raden aan dat u de indexering uitvoert terwijl het systeem offline is. Weet je zeker dat je wilt doorgaan met hercodering?]</reencrypt-confirmation>
             </messages>
             <labels>
                 <available>Beschikbaar</available>
@@ -3595,9 +3595,9 @@
                 <reindexing-provider>Herindexeren {0} ({1,number}/{2,number})</reindexing-provider>
                 <reindexing-stopping>Herindexeren wordt gestopt &lt;span&gt;.&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;</reindexing-stopping>
                 <reindexing-finished>Herindexeren is gestopt</reindexing-finished>
-                <reencrypt-state todo="true">[Re-encrypting {0,number}/{1,number}]</reencrypt-state>
-                <reencrypt-started todo="true">[Re-encryption started]</reencrypt-started>
-                <reencrypt-finished todo="true">[Re-encryption finished]</reencrypt-finished>
+                <reencrypt-state todo="true">[Re-encryptie {0,number}/{1,number}]</reencrypt-state>
+                <reencrypt-started todo="true">[Re-encryptie gestart]</reencrypt-started>
+                <reencrypt-finished todo="true">[Re-encryptie voltooid]</reencrypt-finished>
             </labels>
         </home>
     </resource>
